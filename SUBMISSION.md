@@ -4,10 +4,10 @@ This repository is the canonical, portable package for Deckaura Tarot. Public di
 
 | Channel | Artifact | Status | Canonical action |
 | --- | --- | --- | --- |
-| GitHub | Public source repository | Ready | Tag releases after CI passes |
-| skills.sh | Open Agent Skills directory | Ready for discovery | Install from the public repository after push |
-| OpenAI plugin directory | `.codex-plugin/plugin.json` + skill | Review required | Use `submission/openai.md` in the OpenAI submission portal |
-| Claude community directory | `.claude-plugin/plugin.json` + skill | Review required | Use `submission/claude.md` in the Claude plugin submission form |
+| GitHub | Public source repository | Published as `v1.0.0` | Release bundle and CI are live |
+| skills.sh | Open Agent Skills directory | Published | Canonical skill page is live and passed Snyk scanning |
+| OpenAI plugin directory | `.codex-plugin/plugin.json` + skill | Identity verification required | Complete developer or business verification, then use `submission/openai.md` |
+| Claude community directory | `.claude-plugin/plugin.json` + skill | Submitted 2026-08-27 | Pending directory review |
 | Hugging Face | Open card dataset | Published | Preserve the intentional `Blacik` namespace |
 | MCP ecosystem | Companion MCP server | Published separately | Link only where an MCP integration is relevant |
 
@@ -22,3 +22,10 @@ This repository is the canonical, portable package for Deckaura Tarot. Public di
 7. Submit the review-ready copy under `submission/` to official directories.
 
 Directory review, identity verification, and approval remain controlled by each platform. Never claim approval before the public listing is live.
+
+## Live records
+
+- GitHub release: https://github.com/gokimedia/claude-skill-tarot/releases/tag/v1.0.0
+- skills.sh: https://www.skills.sh/gokimedia/claude-skill-tarot/tarot-reading
+- Claude submission status: submitted and pending review as of 2026-08-27
+- OpenAI submission status: the selected organization requires individual or business identity verification before a draft can be created

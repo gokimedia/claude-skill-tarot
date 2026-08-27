@@ -1,5 +1,7 @@
 # Claude community plugin submission copy
 
+**Status:** Submitted on 2026-08-27; pending review for Claude Code and Claude Cowork.
+
 ## Listing
 
 - **Plugin name:** `deckaura-tarot`

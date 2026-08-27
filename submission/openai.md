@@ -1,5 +1,7 @@
 # OpenAI public plugin submission copy
 
+**Status:** Package ready. The OpenAI organization must complete individual or business identity verification before the portal allows a skills-only draft to be created.
+
 Use this file as the controlled source when completing the OpenAI plugin directory form.
 
 ## Listing
