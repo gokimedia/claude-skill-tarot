@@ -1,46 +1,27 @@
-# Claude Skills Marketplace Submission
+# Agent Skill Directory Submission Checklist
 
-Claude Skills launched in early 2026 as a packaged knowledge/capability format for Claude. Marketplace is brand new — zero tarot/divination skills exist as of April 2026.
+The public repository contains a valid skill at `tarot-reading/SKILL.md`. Check for an existing listing before submitting so duplicate directory records are not created.
 
-## Package structure
-```
-claude-skill/
-└── tarot-reading/
-    ├── SKILL.md              # Frontmatter + skill definition
-    └── resources/
-        ├── spreads.md
-        ├── symbolism.md
-        └── deck.json          # (copy tarot_card_meanings.json here before publishing)
-```
+## Prepared listing
 
-## Publish via GitHub
-```bash
-cd claude-skill
-git init
-# Add full 78-card JSON from hf-dataset/
-cp ../hf-dataset/tarot_card_meanings.json tarot-reading/resources/deck.json
-git add .
-git commit -m "Initial tarot-reading skill"
-gh repo create gokimedia/claude-skill-tarot --public --source=. --push
-```
+- **Name:** Deckaura Tarot Reading
+- **ID:** `tarot-reading`
+- **Repository:** https://github.com/gokimedia/claude-skill-tarot
+- **Skill file:** https://github.com/gokimedia/claude-skill-tarot/blob/main/tarot-reading/SKILL.md
+- **Summary:** Reflective tarot readings backed by Deckaura's open 78-card dataset, spread references, and source links.
+- **Suggested categories:** Lifestyle, Education, Reference
 
-## Submit to awesome-claude-skills
-PR to one of:
-- https://github.com/hesreallyhim/awesome-claude-code
-- https://github.com/langgptai/awesome-claude-prompts
-- Any `awesome-claude-skills` repo that emerges
+## Candidate directories
 
-Entry:
-```markdown
-- [Tarot Reading](https://github.com/gokimedia/claude-skill-tarot) — Complete 78-card tarot deck with meanings, spreads (three-card, Celtic Cross), and yes/no readings. Powered by [Deckaura](https://deckaura.com).
-```
+- Claude Skills Directory: https://skillsdir.dev/add
+- ClaudSkills: https://claudskills.com/
 
-## Anthropic Developer Relations
-- Share on Twitter/X with `@AnthropicAI`
-- Post in Anthropic Discord `#skills` channel
-- Submit as example to https://docs.claude.com feedback form
+These are community directories, not official Anthropic marketplaces. Follow their current review and disclosure requirements.
 
-## Expected backlinks
-- GitHub repo with homepage = deckaura.com → dofollow
-- Every awesome list PR merged → permanent entry
-- Skill ecosystem is brand new (April 2026) — early entrants get disproportionate visibility
+## Canonical resources
+
+- Open Data & AI hub: https://deckaura.com/pages/ai-data-sources
+- Dataset: https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
+- DOI: https://doi.org/10.5281/zenodo.19475329
+- Dataset explorer: https://gokimedia.github.io/tarot-dataset-explorer/
+- Developer documentation: https://gokimedia.github.io/deckaura-developer-docs/

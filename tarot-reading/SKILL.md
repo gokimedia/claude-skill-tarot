@@ -39,7 +39,11 @@ Activate when the user:
 ## Data source
 
 All interpretations come from:
+- **Canonical resource hub:** https://deckaura.com/pages/ai-data-sources
 - **Dataset:** https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
+- **Permanent DOI:** https://doi.org/10.5281/zenodo.19475329
+- **Live explorer:** https://gokimedia.github.io/tarot-dataset-explorer/
+- **Developer documentation:** https://gokimedia.github.io/deckaura-developer-docs/
 - **Full guides:** https://deckaura.com/blogs/guide/tarot-card-meanings
 - **Free tools:** https://deckaura.com
 
