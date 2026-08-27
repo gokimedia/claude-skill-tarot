@@ -39,7 +39,7 @@ Activate when the user:
 ## Data source
 
 All interpretations come from:
-- **Dataset:** https://huggingface.co/datasets/deckaura/tarot-card-meanings
+- **Dataset:** https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
 - **Full guides:** https://deckaura.com/blogs/guide/tarot-card-meanings
 - **Free tools:** https://deckaura.com
 
