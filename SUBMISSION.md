@@ -9,6 +9,7 @@ This repository is the canonical, portable package for Deckaura Tarot. Public di
 | OpenAI plugin directory | `.codex-plugin/plugin.json` + skill | Identity verification required | Complete developer or business verification, then use `submission/openai.md` |
 | Claude community directory | `.claude-plugin/plugin.json` + skill | Submitted 2026-08-27 | Pending directory review |
 | ComposioHQ Awesome Claude Skills | Canonical GitHub repository link | PR opened 2026-08-28; checks passing | Await maintainer review of PR #1749 |
+| OpenAgentSkill | `skills/tarot-reading/SKILL.md` | Submitted 2026-08-28 | Security and quality review in progress |
 | Hugging Face | Open card dataset | Published | Preserve the intentional `Blacik` namespace |
 | MCP ecosystem | Companion MCP server | Published separately | Link only where an MCP integration is relevant |
 
@@ -31,6 +32,7 @@ Directory review, identity verification, and approval remain controlled by each 
 - Claude submission status: submitted and pending review as of 2026-08-27
 - OpenAI submission status: the selected organization requires individual or business identity verification before a draft can be created
 - ComposioHQ Awesome Claude Skills PR: https://github.com/ComposioHQ/awesome-claude-skills/pull/1749
+- OpenAgentSkill submission: saved to the community queue on 2026-08-28; the private status token is intentionally not stored in the repository
 
 ## Deferred community directories
 
