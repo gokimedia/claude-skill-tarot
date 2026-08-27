@@ -1,0 +1,45 @@
+{
+  "name": "deckaura-tarot",
+  "version": "1.0.0",
+  "description": "Reflective tarot card lookups and spreads backed by Deckaura's open 78-card dataset.",
+  "author": {
+    "name": "Deckaura",
+    "email": "hello@deckaura.com",
+    "url": "https://deckaura.com"
+  },
+  "homepage": "https://deckaura.com/pages/tarot-ai-knowledge-base",
+  "repository": "https://github.com/gokimedia/claude-skill-tarot",
+  "license": "MIT",
+  "keywords": [
+    "tarot",
+    "card-meanings",
+    "reflection",
+    "agent-skill",
+    "deckaura"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Deckaura Tarot",
+    "shortDescription": "Reflective readings from an open 78-card dataset.",
+    "longDescription": "Look up all 78 tarot cards and create daily, three-card, relationship, decision, yes/no, and Celtic Cross readings using Deckaura's versioned open dataset. The plugin runs locally, makes no network requests, and frames readings as reflection rather than factual prediction.",
+    "developerName": "Deckaura",
+    "category": "Lifestyle",
+    "capabilities": [
+      "Knowledge",
+      "Interactive",
+      "Local-only"
+    ],
+    "websiteURL": "https://deckaura.com/pages/tarot-ai-knowledge-base",
+    "privacyPolicyURL": "https://deckaura.com/pages/deckaura-privacy-policy",
+    "termsOfServiceURL": "https://deckaura.com/pages/terms-of-service",
+    "defaultPrompt": [
+      "Give me a reflective three-card tarot reading.",
+      "Explain The Star upright and reversed.",
+      "Draw one card as a journaling prompt."
+    ],
+    "brandColor": "#2D154D",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg"
+  }
+}

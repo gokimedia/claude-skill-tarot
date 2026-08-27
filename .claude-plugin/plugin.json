@@ -1,0 +1,21 @@
+{
+  "name": "deckaura-tarot",
+  "displayName": "Deckaura Tarot",
+  "version": "1.0.0",
+  "description": "Reflective tarot card lookups and spreads backed by Deckaura's open 78-card dataset.",
+  "author": {
+    "name": "Deckaura",
+    "email": "hello@deckaura.com",
+    "url": "https://deckaura.com"
+  },
+  "homepage": "https://deckaura.com/pages/tarot-ai-knowledge-base",
+  "repository": "https://github.com/gokimedia/claude-skill-tarot",
+  "license": "MIT",
+  "keywords": [
+    "tarot",
+    "reflection",
+    "card-meanings",
+    "agent-skills",
+    "deckaura"
+  ]
+}

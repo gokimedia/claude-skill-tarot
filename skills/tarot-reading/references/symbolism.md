@@ -1,6 +1,8 @@
-# Tarot Symbolism Reference
+# Tarot symbolism reference
 
-Source: https://deckaura.com
+Use this reference only when symbolism improves the requested interpretation. Treat these as interpretive correspondences, not empirical claims.
+
+Canonical source: https://deckaura.com/blogs/guide/tarot-suits-explained
 
 ## The Four Suits (Minor Arcana)
 
@@ -65,4 +67,9 @@ Full guide: https://deckaura.com/blogs/guide/court-cards-explained
 - Wands + Pentacles: action + resources (productivity)
 - Cups + Swords: feeling + thinking (tension or insight)
 
-More: https://deckaura.com/blogs/guide/tarot-suits-explained
+## Interpretation discipline
+
+- Position and orientation take priority over generic symbolism.
+- Use repeated elements or numbers to identify patterns, not to manufacture certainty.
+- Describe elemental tension as a reflective contrast rather than a fixed rule.
+- The bundled dataset is authoritative for each card's stored element and association.

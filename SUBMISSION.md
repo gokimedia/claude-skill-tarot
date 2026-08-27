@@ -1,27 +1,24 @@
-# Agent Skill Directory Submission Checklist
+# Publication status and runbook
 
-The public repository contains a valid skill at `tarot-reading/SKILL.md`. Check for an existing listing before submitting so duplicate directory records are not created.
+This repository is the canonical, portable package for Deckaura Tarot. Public directory listings must point here rather than copying the skill into divergent repositories.
 
-## Prepared listing
+| Channel | Artifact | Status | Canonical action |
+| --- | --- | --- | --- |
+| GitHub | Public source repository | Ready | Tag releases after CI passes |
+| skills.sh | Open Agent Skills directory | Ready for discovery | Install from the public repository after push |
+| OpenAI plugin directory | `.codex-plugin/plugin.json` + skill | Review required | Use `submission/openai.md` in the OpenAI submission portal |
+| Claude community directory | `.claude-plugin/plugin.json` + skill | Review required | Use `submission/claude.md` in the Claude plugin submission form |
+| Hugging Face | Open card dataset | Published | Preserve the intentional `Blacik` namespace |
+| MCP ecosystem | Companion MCP server | Published separately | Link only where an MCP integration is relevant |
 
-- **Name:** Deckaura Tarot Reading
-- **ID:** `tarot-reading`
-- **Repository:** https://github.com/gokimedia/claude-skill-tarot
-- **Skill file:** https://github.com/gokimedia/claude-skill-tarot/blob/main/tarot-reading/SKILL.md
-- **Summary:** Reflective tarot readings backed by Deckaura's open 78-card dataset, spread references, and source links.
-- **Suggested categories:** Lifestyle, Education, Reference
+## Release gate
 
-## Candidate directories
+1. Run `npm run check`.
+2. Run the OpenAI skill and plugin validators.
+3. Run `claude plugin validate .` when the Claude CLI is available.
+4. Review `git diff --check` and confirm no secrets or generated credentials are present.
+5. Commit, push, and confirm GitHub Actions passes.
+6. Trigger skills.sh discovery from the public repository.
+7. Submit the review-ready copy under `submission/` to official directories.
 
-- Claude Skills Directory: https://skillsdir.dev/add
-- ClaudSkills: https://claudskills.com/
-
-These are community directories, not official Anthropic marketplaces. Follow their current review and disclosure requirements.
-
-## Canonical resources
-
-- Open Data & AI hub: https://deckaura.com/pages/ai-data-sources
-- Dataset: https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings
-- DOI: https://doi.org/10.5281/zenodo.19475329
-- Dataset explorer: https://gokimedia.github.io/tarot-dataset-explorer/
-- Developer documentation: https://gokimedia.github.io/deckaura-developer-docs/
+Directory review, identity verification, and approval remain controlled by each platform. Never claim approval before the public listing is live.
